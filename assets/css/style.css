@@ -1,5 +1,11 @@
 * {
+  margin: 0;
+  padding: 0;
+}
+
+body {
   font-family: Arial, Helvetica, sans-serif;
+  position: relative;
 }
 
 h1 {
@@ -9,7 +15,7 @@ h1 {
 header {
   background: black;
   color: white;
-  padding: 20px;
+
   border-bottom: 10px solid grey;
   text-align: right;
   position: fixed;
@@ -22,6 +28,10 @@ main {
   margin-top: 150px;
 }
 
+nav {
+  padding: 16px;
+}
+
 nav li {
   display: inline;
   list-style: none;
@@ -31,6 +41,9 @@ nav li {
   text-align: center;
 }
 
+img {
+  margin-bottom: 10px;
+}
 .contact {
   text-align: center;
   padding: 50px 20px;
